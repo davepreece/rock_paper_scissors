@@ -13,8 +13,6 @@ function computerHand() {
     return items[randomItem]
 }
 
-//ending the game and declaring winner
-
 
 
 // player image clicks vs random hand function
