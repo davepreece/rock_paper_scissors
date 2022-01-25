@@ -17,7 +17,7 @@ function computerHand() {
 
 // player image clicks vs random hand function
 function playerRock() {
-    isAlive = true
+    isAlive = false
     computerHand()
     if (computerHand() === items[2]) {
         resultsEl.textContent = items[0] + " crushes " + items[2] + "!" + " Well done!"
