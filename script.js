@@ -1,4 +1,4 @@
-let items = ["Rock", "Paper", "Scissors"]
+const items = ["Rock", "Paper", "Scissors"]
 let resultsEl = document.querySelector("#results-el")
 let scoreEl = document.querySelector("#score-el")
 let playerScore = 0
@@ -13,15 +13,9 @@ function computerHand() {
     return items[randomItem]
 }
 
-//ending the game and eclaring winner
-function winner() {
-    if(playerScore === 5) {
-        isAlive = false
-        resultsEl.textContent = "Congratulations!" 
-    } else (computerScore === 5) 
-        resultsEl.textContent = "You have been defeated..."
-        isAlive = false
-} 
+//ending the game and declaring winner
+
+
 
 // player image clicks vs random hand function
 function playerRock() {
